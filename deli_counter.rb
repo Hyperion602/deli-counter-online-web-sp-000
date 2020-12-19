@@ -18,6 +18,7 @@ def now_serving(katz_deli)
   else
     puts "Currently serving #{katz_deli.shift}."
   end
+end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
